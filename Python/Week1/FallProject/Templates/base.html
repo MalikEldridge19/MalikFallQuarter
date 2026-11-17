@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <!-- title tag goes here -->
+        <title>
+            {% block title %} Malik's CSR Website {% endblock %}
+        </title>
+    </head>
+    <body>
+
+        <div class="header">
+            {% block header %}My App{% endblock %}
+        </div>
+
+        <div class="navbar">
+            {% block navbar %} {% endblock %}
+        </div>
+
+        <div class="body">
+            {% block body %} {% endblock %}
+        </div> 
+    
+        <div class="footer">
+            {% block footer %} {% endblock %}
+        </div>
+
+    </body>
+</html>
